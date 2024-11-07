@@ -3,23 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobilidade Sustentável</title>
+    <title>T-MOBIS | Site Oficial</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/fdd516a2fb.js" crossorigin="anonymous"></script>
 </head>
 <body>
+     <!--  Header - Usado para definir nosso cabeçalho -->
+     <header>
+
+        <!-- Criamos uma Div para diferenciar a imagem do restante. -->
+       <div>
+        <img src="imagem/logo-transparente.png" alt="Logotipo da pagina">
+       </div>
+
+       
+
+         <!-- Criamos uma Div para diferenciar nossas listas do restante. -->
+       <div>
+
+           <nav>
+           <!-- Nav= Usada para informar o navegador que os itens dentro dela são navegáveis. -->
+           
+               <!-- Ul= Listas não ordenadas -->
+               <ul class="nav-links">
+
+                   <li>
+                       <!-- Âncora -->
+                       <a href="">QUEM SOMOS</a>
+                   </li>
+
+                   <li>
+                       <a href="">SERVIÇOS</a>
+                   </li>
+
+                   <li>
+                       <a href="">ESTACIONAMENTOS</a>
+                   </li>
+
+                   <li>
+                       <a href="">TELEFÉRICO</a>
+                   </li>
+
+                   <li>
+                    <a href="">FALE CONOSCO</a>
+                </li>
+
+               
+               </ul>
+           
+       </div>
+
+       <button id="button-header" onclick="trocarCor()">Modo Escuro</button>
+
+    </header>
+<main>
+    <section class="section-1">
+       
+        <div>
+        <h1>SE DEPENDER DA GENTE <br>
+            O CÉU CONTINUARÁ <br>
+            AZUL
+        </h1>
+    </div>
+
+    <div>
+        <img src="imagem/onibus_eletro.jpg" alt="Imagem ônibus elétrico">
+    </div>
+
+
+    </section>
+
+</main>
+
+        <!--  Footer = Usada para abrir e habilitar rodapé para a página --> 
+    <footer>
+  
+    <!--  Criamos uma Div (caixa) para aguardar e diferenciar a logo (img) do restante do rodapé -->
+     <div class="div-logo-footer">
+ 
+         <div>
+             <img src="imagem/logo-transparente.png" alt="logo da pagina">
+         </div>
+ 
+     </div>
+            
+     <!-- Criamos uma Div (caixa) para aguardar e diferenciar o Subtítulo e parágrafo -->
+     <div>
+         <!-- (h3) Subtítulo -->
+        <h3>NOSSO ENDEREÇO</h3>
+        <!-- (p) Parágrafo -->
+        <p>Rua Garcia Lorca, 176 – Paulicéia <br>
+            São Bernardo do Campo – SP <br>
+            CEP: 09695-900</p>
+     </div>
+ 
+     <!-- Criamos uma Div (caixa) para aguardar e diferenciar as listas não ordenadas do rodapé -->
+     <div class="div-list-footer">
+         <nav>
+             <ul>
+                 <li>
+                     <a href="">Cartões</a>
+                 </li>
+              
+                 <li>
+                     <a href="">Trabalhe Conosco</a>
+                 </li>
+ 
+                 <li>
+                     <a href="">Política de Privacidade</a>
+                 </li>
+             </ul>
+         </nav>
+     </div>
+   
+     <!-- Criamos uma Div (caixa) para aguardar e diferenciar os ícones -->
+     <div class="div-sociais">
+ 
+         <i class="fa-brands fa-instagram"></i>
+         <i class="fa-brands fa-whatsapp"></i>
+         <i class="fa-brands fa-facebook-f"></i>
+ 
+     </div>
+ 
+ </footer>
+
+  <script src="script.js"></script>
+ 
+  <!-- VLibras= Tradução automática do português para libras. Tornar a página mais acessível para os usuários surdos. -->
+ 
+ <div vw class="enabled">
+     <div vw-access-button class="active"></div>
+     <div vw-plugin-wrapper>
+       <div class="vw-plugin-top-wrapper"></div>
+     </div>
+   </div>
+   <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+   <script>
+     new window.VLibras.Widget('https://vlibras.gov.br/app');
+   </script>
+
+       
     
-<header>
-
-<img src="Pagina03/img/logo-transparente.png" alt="">
-</header>
-
-<section></section>
-
-<section></section>
-
-<section></section>
-
-
 </body>
 </html>
+
+
+
+
