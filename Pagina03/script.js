@@ -1,45 +1,18 @@
-function trocardeCor(){
-        
+const typed = new Typed('#typed-text', {
 
-    if (document.body.style.backgroundColor === "#010300") {
-       
-        document.body.style.backgroundColor = "#bbdec6";
-        document.body.style.color = "#010300";
+    strings: ["#SUSTENTABILIDADE","#AJUDA AMBIENTAL"],
+    typeSpeed: 70, //Velocidade que sera digitado nosso texto
+    backSpeed: 0.1, //Velocidade de retorno
+    loop: true, //texto em execução infinto 
+    showCursor: false, //Remove o cursor padrao de html.
+    fadeOut: true, //Adiciona uma transição
+});
 
+ScrollReveal().reveal(
+    '#section2', {
 
-    }
+             duration: 5000,
+             origin: 'right',
+             distance: '155px'
 
-    
-    else {
-       
-        document.body.style.backgroundColor = "#010300";
-        document.body.style.color = "#bbdec6";
-
-    } };
-
-
-    $(document).ready(function(){
-        //Seleciona o container .carousel e aplica a funçao slick() 
-        //que ativa o carrossel com as configuraçao abaixo
-    $('.carousel').slick({
-    
-        // skidesToShow: numero de cards exibidos ao mesmo tempo no carrossel
-        slidesToShow: 2, //Exibe 3card ao mesmo tempo
-    
-        // skidesToScroll: define quantos cards serao deslizados ao mover o carrosel 
-        slidesToScroll: 3, // Move 1 card por vez ao deslizar 
-        
-    
-        // infinite: quando true, o carrossel retorna ao inicio automaticamente
-        infinite: true, // Mantem carrosel em rotaçao continua
-        
-        // dots: quando true, ativa os pontos de navegação abaixo do carrosel
-        dots: true,
-        
-        //arrows: exibe setas de navegação nas laterais do carrosel
-        arrow: true
     });
-    
-    
-    });
-
