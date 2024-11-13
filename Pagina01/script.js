@@ -1,13 +1,13 @@
 function trocarCor() {
-    if (document.body.style.backgroundColor === "#e7e0d2") {
+    if (document.body.style.backgroundColor === "white") {
        
-        document.body.style.backgroundColor = "#e7e0d2";
-        document.body.style.color = "#113e4e";
+        document.body.style.backgroundColor = "white";
+        document.body.style.color = "green";
 
         document.getElementById("button-header").textContent = "Modo Escuro"
     } else {
       
-        document.body.style.backgroundColor = "#4d7c8d";
+        document.body.style.backgroundColor = "black";
         document.body.style.color = "white";
 
         document.getElementById("button-header").textContent = "Modo Claro"
@@ -15,3 +15,16 @@ function trocarCor() {
       
     };
 }
+
+window.addEventListener("resize" , function(){
+
+   const video = document.querySelector(".video");
+   const section = document.querySelector(".section-1");
+   const overlay = document.querySelector(".overlay");
+
+   section.style.height = video.offsetHeight + "px";
+   overlay.style.height = video.offsetHeight + "px";
+
+   
+
+}, true);
