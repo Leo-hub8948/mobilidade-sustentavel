@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    /*Zerando o preenchimento*/
+    margin: 0;
+    /*Zerando a margin(top, bottom, right, left*/
+    list-style: none;
+    /*remover os marcadores de listas da <ul> */
+    font-family: "Noto Serif", serif;
+    /*Fonte da letra (Google fontes)*/
+}
